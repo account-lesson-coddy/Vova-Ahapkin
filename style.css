@@ -1,0 +1,60 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    min-height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: linear-gradient(45deg, #f8f8f8, #e6b3e6);
+    font-family: 'Arial', sans-serif;
+
+}
+
+.card {
+    height: 400px;
+    background: #f8f8f8;
+    width: 300px;
+    border-radius: 20px;
+    box-shadow: 0 0 50px rgba(0, 0, 0, 0.1);
+    position: relative;
+
+}
+
+.content {
+    padding: 30px;
+    text-align: center;
+}
+
+h1 {
+    color: #e6b3e6;
+    margin-bottom: 20px;
+    font-size: 24px;
+}
+
+.img-flo {
+    width: 200px;
+    height: 150px;
+    margin: 20px auto;
+    overflow: hidden;
+    border-radius: 20px;
+    background: url("flowers.png");
+    background-size: contain;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+
+p {
+    color: darkgrey;
+    line-height: 1.6;
+    margin-top: 20px;
+}
+
+.signature {
+    margin-top: 30px;
+    font-style: italic;
+    color: darkgray;
+}
